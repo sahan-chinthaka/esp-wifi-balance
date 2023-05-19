@@ -9,8 +9,8 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 WiFiMulti wifi_multi;
 
-const char *ssid = "Dialog 4G 117";
-const char *password = "qwertysca321";
+const char *ssid = "####"; // WiFi SSID
+const char *password = "####"; // Password
 const char *host = "http://192.168.8.1/goform/goform_get_cmd_process?isTest=false&cmd=system_status";
 
 uint64_t session = 0;
